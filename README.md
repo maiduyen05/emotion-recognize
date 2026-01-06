@@ -160,10 +160,10 @@ Dự án áp dụng một pipeline tiền xử lý 13 bước cho bình luận t
 │       └── vsmec_test.csv             # Tập test gốc
 │
 ├── data_build.ipynb                   # Notebook 1: Xây dựng bộ dữ liệu
-├── preprocessing_final_final.ipynb    # Notebook 2: Tiền xử lý dữ liệu
+├── preprocessing.ipynb    # Notebook 2: Tiền xử lý dữ liệu
 ├── eda.ipynb                          # Notebook 3: Phân tích khám phá dữ liệu
 ├── pca_lda.ipynb                      # Notebook 4: Thử nghiệm giảm chiều
-└── modeling_final.ipynb               # Notebook 5: Huấn luyện và đánh giá mô hình
+└── modeling.ipynb               # Notebook 5: Huấn luyện và đánh giá mô hình
 ```
 
 ---
