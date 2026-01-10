@@ -448,7 +448,7 @@ jupyter notebook data_build.ipynb
 **Bước 2: Tiền xử lý dữ liệu**
 ```bash
 # Mở và chạy preprocessing_final_final.ipynb
-jupyter notebook preprocessing_final_final.ipynb
+jupyter notebook preprocessing.ipynb
 ```
 - Áp dụng 13 bước tiền xử lý
 - Output: `data/cleaned_final/processed_comments.csv`
@@ -466,7 +466,7 @@ jupyter notebook eda.ipynb
 **Bước 4: Huấn luyện mô hình**
 ```bash
 # Mở và chạy modeling_final.ipynb
-jupyter notebook modeling_final.ipynb
+jupyter notebook modeling.ipynb
 ```
 - Chạy 18 kịch bản thực nghiệm
 - Đánh giá và so sánh kết quả
