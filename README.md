@@ -448,7 +448,7 @@ jupyter notebook data_build.ipynb
 **Bước 2: Tiền xử lý dữ liệu**
 ```bash
 # Mở và chạy preprocessing_final_final.ipynb
-jupyter notebook preprocessing_final_final.ipynb
+jupyter notebook preprocessing.ipynb
 ```
 - Áp dụng 13 bước tiền xử lý
 - Output: `data/cleaned_final/processed_comments.csv`
@@ -466,14 +466,14 @@ jupyter notebook eda.ipynb
 **Bước 4: Huấn luyện mô hình**
 ```bash
 # Mở và chạy modeling_final.ipynb
-jupyter notebook modeling_final.ipynb
+jupyter notebook modeling.ipynb
 ```
 - Chạy 18 kịch bản thực nghiệm
 - Đánh giá và so sánh kết quả
 
 #### Chạy Nhanh (Chỉ Modeling)
 
-Nếu dữ liệu đã được xử lý sẵn trong thư mục `data/cleaned_final/`:
+Nếu dữ liệu đã được xử lý sẵn trong thư mục `data/merged_data/` và `data/preprocessed_data`:
 
 ```python
 # Mở modeling_final.ipynb và chạy từ đầu
@@ -524,6 +524,8 @@ model_type="logistic_regression"
 
 # K-Nearest Neighbors
 model_type="knn"
+
+model_type="svm_kernel_name"
 ```
 
 **Tùy chỉnh TF-IDF:**
@@ -571,6 +573,9 @@ Mỗi thực nghiệm tạo ra 3 confusion matrices:
 - Underthesea: [https://github.com/undertheseanlp/underthesea](https://github.com/undertheseanlp/underthesea)
 - Scikit-learn: [https://scikit-learn.org/](https://scikit-learn.org/)
 - Hugging Face Datasets: [https://huggingface.co/docs/datasets](https://huggingface.co/docs/datasets)
+
+**Github:**
+Project Emotion Recognize: https://github.com/maiduyen05/emotion-recognize
 
 **Phương pháp:**
 - TF-IDF: Term Frequency-Inverse Document Frequency
